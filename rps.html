@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Rock Paper Scissors Game</title>
   </head>
   <body>
-    <script language="JavaScript" type="text/javascript" src="scriptRps.js"></script>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="info">
+      <h4>Rock Paper Scissors Game</h4>
+    </div>
+    <div class="score">
+      <div class="player">
+        <h2 id="player-score">Player: </h2>
+        <h2 id="player-selection"></h2>
+      </div>
+      <div class="computer">
+        <h2 id="computer-score">Computer: </h2>
+        <h2 id="computer-selection"></h2>
+      </div>
+      <div class="rounds">
+        <h3 id="current-round"></h3>
+      </div>
+      <div>
+        <h4 id="result"> </h4>
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="rock" type="button" name="button">Rock</button>
+      <button class="paper" type="button" name="button">Paper</button>
+      <button class="scissors" type="button" name="button">Scissors</button>
+    </div>
+
+
+    <script language="JavaScript" type="text/javascript" src="script.js"></script>
   </body>
 </html>

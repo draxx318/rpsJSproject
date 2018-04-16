@@ -1,0 +1,42 @@
+html {
+  background-color: black;
+}
+body {
+  color: white;
+}
+header {
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.score {
+  text-align: center;
+}
+
+.player {
+  height: auto;
+  width: 40%;
+  display: inline-block;
+}
+
+.computer {
+  height: auto;
+  width: 40%;
+  display: inline-block;
+}
+
+.rounds {
+  display: block;
+  height: 50px;
+}
+
+.result {
+  display: block;
+  height: 50px;
+}
+.buttons {
+  text-align: center;
+}
